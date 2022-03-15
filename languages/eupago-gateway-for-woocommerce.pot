@@ -1,0 +1,815 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EuPago Gateway For Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-26 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: eupago-gateway-for-woocommerce"
+
+#: templates/emails/plain-instructions.php:51
+msgid "Accept this payment at your MBWAY mobile app"
+msgstr ""
+
+#: templates/emails/html-instructions.php:112
+msgid "Accept this payment at your MBWAY mobile app."
+msgstr ""
+
+#: templates/payment-instructions.php:113
+msgid "Accept this payment with your MBWAY mobile app"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:109
+msgid "Allow duplicate payments."
+msgstr ""
+
+#: includes/hooks/hooks-refund.php:28
+msgid "Amount"
+msgstr ""
+
+#: includes/functions/refund-request.php:77
+msgid "Amount Invalid"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:215
+msgid "API Key:"
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:112
+msgid "API Settings"
+msgstr ""
+
+#: includes/class-wc-eupago-cc.php:263
+msgid "Awaiting Credit Card payment."
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:319
+msgid "Awaiting MBWAY payment."
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:309
+msgid "Awaiting Multibanco payment."
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:256
+msgid "Awaiting Pagaqui payment."
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecard.php:283
+msgid "Awaiting PaySafeCard payment."
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecash.php:267
+msgid "Awaiting Paysafecash payment."
+msgstr ""
+
+#: includes/class-wc-eupago-payshop.php:270
+msgid "Awaiting PayShop payment."
+msgstr ""
+
+#: includes/hooks/hooks-refund.php:27
+msgid "BIC"
+msgstr ""
+
+#: includes/functions/refund-request.php:75
+msgid "BIC Invalid"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:113
+#: includes/class-wc-eupago-pagaqui.php:119 includes/class-wc-eupago-cc.php:115
+#: includes/class-wc-eupago-cc.php:121 includes/class-wc-eupago-payshop.php:113
+#: includes/class-wc-eupago-payshop.php:119
+#: includes/class-wc-eupago-multibanco.php:131
+#: includes/class-wc-eupago-multibanco.php:137
+#: includes/class-wc-eupago-paysafecard.php:119
+#: includes/class-wc-eupago-paysafecard.php:125
+#: includes/class-wc-eupago-paysafecash.php:119
+#: includes/class-wc-eupago-paysafecash.php:125
+#: includes/class-wc-eupago-mbway.php:120
+#: includes/class-wc-eupago-mbway.php:126
+msgid ""
+"By design, Mulitibanco only allows payments from 1 to 999999 &euro; "
+"(inclusive). You can use this option to further limit this range."
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:203
+msgid "Channel Name:"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:125 includes/class-wc-eupago-cc.php:127
+#: includes/class-wc-eupago-payshop.php:125
+#: includes/class-wc-eupago-multibanco.php:143
+#: includes/class-wc-eupago-paysafecard.php:131
+#: includes/class-wc-eupago-paysafecash.php:131
+#: includes/class-wc-eupago-mbway.php:132
+msgid "Choose when to reduce stock."
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:269
+msgid "Client ID:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:273
+msgid "Client Secret:"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:220 includes/class-wc-eupago-cc.php:222
+#: includes/class-wc-eupago-payshop.php:220
+#: includes/class-wc-eupago-multibanco.php:168
+#: includes/class-wc-eupago-multibanco.php:179
+#: includes/class-wc-eupago-paysafecard.php:226
+#: includes/class-wc-eupago-paysafecash.php:226
+#: includes/class-wc-eupago-mbway.php:164
+msgid "Configuration error. This store currency is not Euros (&euro;)."
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:115 includes/class-wc-eupago-cc.php:87
+msgid "Credit Card"
+msgstr ""
+
+#: includes/class-wc-eupago-cc.php:25
+msgid "Credit Card (EuPago)"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:253
+msgid "Debug Log:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:335
+msgid ""
+"Do you already have a demo account and need to finish your real account? "
+"Please reach out by email:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:334
+msgid "Do you need an account? You may sign up at"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:247
+msgid ""
+"Do you want to send a reminder to your customer to inform him he has a "
+"pending order? Activate this option. Read more about this reminder"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:107
+msgid "Duplicate payments"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:207
+msgid ""
+"Each account has at least a channel. Each channel has an API Key that "
+"identifies your euPago's account."
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:99
+msgid ""
+"Easy and simple payment using \"Pagamento de Serviços\" at any "
+"\"Multibanco\" ATM terminal or your Home Banking service. (Only available to "
+"customers of Portuguese banks. Payment service provided by eupago.)"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:86
+msgid "Enable \"Pagamento de Serviços no Multibanco\" (using euPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-cc.php:80
+msgid "Enable Credit Card (using euPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:91
+msgid "Enable MBWAY (using euPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:107 includes/class-wc-eupago-cc.php:109
+#: includes/class-wc-eupago-payshop.php:107
+#: includes/class-wc-eupago-multibanco.php:125
+#: includes/class-wc-eupago-paysafecard.php:113
+#: includes/class-wc-eupago-paysafecash.php:113
+#: includes/class-wc-eupago-mbway.php:114
+msgid "Enable only for customers whose address is in Portugal"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:113 includes/class-wc-eupago-cc.php:115
+#: includes/class-wc-eupago-payshop.php:113
+#: includes/class-wc-eupago-multibanco.php:131
+#: includes/class-wc-eupago-paysafecard.php:119
+#: includes/class-wc-eupago-paysafecash.php:119
+#: includes/class-wc-eupago-mbway.php:120
+msgid ""
+"Enable only for orders above x &euro; (exclusive). Leave blank (or zero) to "
+"allow for any order value."
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:119 includes/class-wc-eupago-cc.php:121
+#: includes/class-wc-eupago-payshop.php:119
+#: includes/class-wc-eupago-multibanco.php:137
+#: includes/class-wc-eupago-paysafecard.php:125
+#: includes/class-wc-eupago-paysafecash.php:125
+#: includes/class-wc-eupago-mbway.php:126
+msgid ""
+"Enable only for orders below x &euro; (exclusive). Leave blank (or zero) to "
+"allow for any order value."
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:84
+msgid "Enable Pagaqui (using euPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecard.php:84
+msgid "Enable PaySafeCard (using euPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecash.php:84
+msgid "Enable Paysafecash (using euPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-payshop.php:84
+msgid "Enable PayShop (using euPago)"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:226
+msgid "Endpoint:"
+msgstr ""
+
+#: templates/payment-instructions.php:30
+#: templates/emails/plain-instructions.php:19
+#: templates/emails/plain-instructions.php:45
+#: templates/emails/html-instructions.php:26
+#: templates/emails/html-instructions.php:100
+#: includes/views/order-meta-box.php:12
+msgid "Entity"
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:16
+msgid "Entity:"
+msgstr ""
+
+#: includes/class-wc-eupago-callback.php:35
+msgid "Error"
+msgstr ""
+
+#: templates/emails/plain-instructions.php:53
+#: templates/emails/html-instructions.php:116
+msgid "Error getting payment details"
+msgstr ""
+
+#: includes/views/html-admin-page.php:35
+msgid "ERROR!"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:9
+#: includes/views/eupago-admin-page.php:10
+#: includes/views/eupago-admin-page.php:188
+msgid "EuPago"
+msgstr ""
+
+#. Author of the plugin
+msgid "euPago"
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:177
+#, php-format
+msgid ""
+"EuPago for WooCommerce Gateway depends on the last version of %s to work!"
+msgstr ""
+
+#. Name of the plugin
+msgid "EuPago Gateway For Woocommerce"
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:168
+msgid "EuPago Payment Details"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:189
+msgid "EuPago services integration."
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:117
+msgid "Expire Date"
+msgstr ""
+
+#: includes/functions/refund-request.php:84
+msgid "Fill all fields"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:262
+msgid "Fill in, if different from the billing phone."
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:210
+msgid "Help Center"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:248
+#: includes/views/html-admin-page.php:35
+msgid "here"
+msgstr ""
+
+#: includes/views/html-admin-page.php:13
+msgid "How can I provide this payment method?"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.eupago.pt/"
+msgstr ""
+
+#: includes/hooks/hooks-refund.php:26
+msgid "IBAN"
+msgstr ""
+
+#: includes/functions/refund-request.php:73
+msgid "IBAN Invalid"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:261
+msgid "If different of billing phone"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:209
+msgid ""
+"In order to find your API Key and channel name please follow this guide on "
+"our"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:333
+msgid ""
+"In order to use euPago's plugin for WooCommerce you must have an euPago's "
+"account."
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:100 includes/class-wc-eupago-cc.php:102
+#: includes/class-wc-eupago-payshop.php:100
+#: includes/class-wc-eupago-multibanco.php:102
+#: includes/class-wc-eupago-paysafecard.php:106
+#: includes/class-wc-eupago-paysafecash.php:106
+#: includes/class-wc-eupago-mbway.php:107
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:102 includes/class-wc-eupago-cc.php:104
+#: includes/class-wc-eupago-payshop.php:102
+#: includes/class-wc-eupago-multibanco.php:104
+#: includes/class-wc-eupago-paysafecard.php:108
+#: includes/class-wc-eupago-paysafecash.php:108
+#: includes/class-wc-eupago-mbway.php:109
+msgid ""
+"Instructions that will be added to the thank you page and email sent to "
+"customer."
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:322
+msgid "Intelidus 360 Sender:"
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:23
+msgid "is completed. Payment details:"
+msgstr ""
+
+#: includes/class-wc-eupago-cc.php:227
+msgid ""
+"It's not possible to use credit card to pay values under 2&euro; or above "
+"999999&euro;."
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:225
+#: includes/class-wc-eupago-payshop.php:225
+#: includes/class-wc-eupago-multibanco.php:184
+#: includes/class-wc-eupago-mbway.php:169
+msgid ""
+"It's not possible to use Multibanco to pay values under 1&euro; or above "
+"999999&euro;."
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecard.php:231
+#: includes/class-wc-eupago-paysafecash.php:231
+msgid ""
+"It's not possible to use PaySafeCard to pay values under 1&euro; or above "
+"9999,99&euro;."
+msgstr ""
+
+#: templates/payment-instructions.php:43
+#: templates/emails/html-instructions.php:39
+msgid "Limit Date"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:230
+#: includes/views/eupago-admin-page.php:232
+msgid "Live"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:257
+msgid "Log plugin events, such as callback requests, inside"
+msgstr ""
+
+#: includes/class-wc-eupago-cc.php:96
+#: includes/class-wc-eupago-paysafecard.php:100
+#: includes/class-wc-eupago-paysafecash.php:100
+msgid "Logo"
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:114
+msgid "MB WAY"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:98
+msgid "MBWAY"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:34
+msgid "MBWAY (EuPago)"
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:113
+msgid "Multibanco"
+msgstr ""
+
+#: includes/hooks/hooks-refund.php:25
+msgid "Name"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:112
+msgid "No"
+msgstr ""
+
+#: includes/views/order-meta-box.php:36
+msgid "No details available"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:119
+msgid "Number of days to payment expire."
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:23 includes/hooks/hooks-sms.php:59
+msgid "on"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:111 includes/class-wc-eupago-cc.php:113
+#: includes/class-wc-eupago-payshop.php:111
+#: includes/class-wc-eupago-multibanco.php:129
+#: includes/class-wc-eupago-paysafecard.php:117
+#: includes/class-wc-eupago-paysafecash.php:117
+#: includes/class-wc-eupago-mbway.php:118
+msgid "Only for orders above"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:117 includes/class-wc-eupago-cc.php:119
+#: includes/class-wc-eupago-payshop.php:117
+#: includes/class-wc-eupago-multibanco.php:135
+#: includes/class-wc-eupago-paysafecard.php:123
+#: includes/class-wc-eupago-paysafecash.php:123
+#: includes/class-wc-eupago-mbway.php:124
+msgid "Only for orders below"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:105 includes/class-wc-eupago-cc.php:107
+#: includes/class-wc-eupago-payshop.php:105
+#: includes/class-wc-eupago-multibanco.php:123
+#: includes/class-wc-eupago-paysafecard.php:111
+#: includes/class-wc-eupago-paysafecash.php:111
+#: includes/class-wc-eupago-mbway.php:112
+msgid "Only for Portuguese customers?"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:93
+msgid "Pagamento de Serviços no Multibanco"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:25
+msgid "Pagamento de Serviços no Multibanco (EuPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:91
+msgid "Pagaqui"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:25
+msgid "Pagaqui (EuPago)"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:281
+msgid "Password:"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:97
+msgid "Pay at Pagaqui agent"
+msgstr ""
+
+#: includes/class-wc-eupago-payshop.php:97
+msgid "Pay at PayShop agent"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecash.php:97
+msgid "Pay with cash (Paysafecash)"
+msgstr ""
+
+#: includes/class-wc-eupago-cc.php:93
+msgid "Pay with credit card"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecard.php:97
+msgid "Pay with PaySafeCard"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:241
+#: includes/class-wc-eupago-pagaqui.php:249 includes/class-wc-eupago-cc.php:243
+#: includes/class-wc-eupago-cc.php:256 includes/class-wc-eupago-payshop.php:241
+#: includes/class-wc-eupago-payshop.php:250
+#: includes/class-wc-eupago-payshop.php:257
+#: includes/class-wc-eupago-multibanco.php:271
+#: includes/class-wc-eupago-multibanco.php:287
+#: includes/class-wc-eupago-multibanco.php:294
+#: includes/class-wc-eupago-paysafecard.php:248
+#: includes/class-wc-eupago-paysafecard.php:263
+#: includes/class-wc-eupago-paysafecard.php:270
+#: includes/class-wc-eupago-paysafecash.php:247
+#: includes/class-wc-eupago-paysafecash.php:260
+#: includes/class-wc-eupago-mbway.php:281
+#: includes/class-wc-eupago-mbway.php:294
+#: includes/class-wc-eupago-mbway.php:305
+msgid "Payment error:"
+msgstr ""
+
+#: templates/payment-instructions.php:24 templates/payment-instructions.php:56
+#: templates/payment-instructions.php:78 templates/payment-instructions.php:99
+#: templates/emails/plain-instructions.php:17
+#: templates/emails/plain-instructions.php:27
+#: templates/emails/plain-instructions.php:35
+#: templates/emails/plain-instructions.php:43
+#: templates/emails/html-instructions.php:20
+#: templates/emails/html-instructions.php:52
+#: templates/emails/html-instructions.php:73
+#: templates/emails/html-instructions.php:94
+msgid "Payment instructions"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecard.php:91
+msgid "PaySafeCard"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecard.php:25
+msgid "PaySafeCard (EuPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecash.php:91
+msgid "Paysafecash"
+msgstr ""
+
+#: includes/class-wc-eupago-paysafecash.php:25
+msgid "Paysafecash (EuPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-payshop.php:91
+msgid "PayShop"
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:116
+msgid "Payshop"
+msgstr ""
+
+#: includes/class-wc-eupago-payshop.php:25
+msgid "PayShop (EuPago)"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:260
+#: includes/class-wc-eupago-mbway.php:261
+msgid "Phone number registered on MB WAY"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:220
+#, php-format
+msgid ""
+"Please activate callback to this url on euPago dashboard: <code>%s</code>"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:290
+#: includes/class-wc-eupago-mbway.php:301
+msgid ""
+"Please verify if your number is correct and the total amount of the order "
+"doesn't exceed the limit defined on your MB WAY app."
+msgstr ""
+
+#: includes/hooks/hooks-refund.php:29
+msgid "Reason"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:123 includes/class-wc-eupago-cc.php:125
+#: includes/class-wc-eupago-payshop.php:123
+#: includes/class-wc-eupago-multibanco.php:141
+#: includes/class-wc-eupago-paysafecard.php:129
+#: includes/class-wc-eupago-paysafecash.php:129
+#: includes/class-wc-eupago-mbway.php:130
+msgid "Reduce stock"
+msgstr ""
+
+#: templates/payment-instructions.php:34 templates/payment-instructions.php:62
+#: templates/payment-instructions.php:84 templates/payment-instructions.php:105
+#: templates/emails/plain-instructions.php:21
+#: templates/emails/plain-instructions.php:29
+#: templates/emails/plain-instructions.php:37
+#: templates/emails/plain-instructions.php:47
+#: templates/emails/html-instructions.php:30
+#: templates/emails/html-instructions.php:58
+#: templates/emails/html-instructions.php:79
+#: templates/emails/html-instructions.php:104
+#: includes/views/order-meta-box.php:13 includes/views/order-meta-box.php:19
+#: includes/views/order-meta-box.php:25 includes/views/order-meta-box.php:31
+msgid "Reference"
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:16 includes/hooks/hooks-sms.php:20
+msgid "Reference:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:265
+msgid "Refund"
+msgstr ""
+
+#: includes/hooks/hooks-refund.php:10
+msgid "Refund Request"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:243
+msgid "Reminder(Failover):"
+msgstr ""
+
+#: includes/hooks/hooks-refund.php:30
+msgid "Request a refund"
+msgstr ""
+
+#: includes/functions/refund-request.php:79
+msgid "Request error"
+msgstr ""
+
+#: includes/functions/refund-request.php:69
+msgid "Request made successfully"
+msgstr ""
+
+#: includes/views/html-admin-page.php:9 includes/views/html-admin-page.php:24
+msgid "Requires SOAP protocol active on your server."
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:235
+#: includes/views/eupago-admin-page.php:237
+msgid "Sandbox"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:328
+msgid "Save Changes"
+msgstr ""
+
+#: includes/views/html-admin-page.php:35
+#, php-format
+msgid "Set WooCommerce currency to <strong>Euros (&euro;)</strong> %1$s"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:194
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-wc-eupago-cc.php:98
+#: includes/class-wc-eupago-paysafecard.php:102
+#: includes/class-wc-eupago-paysafecash.php:102
+msgid "Shop Logo for payment page"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:318
+msgid "SMS Intelidus 360 API:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:314
+msgid "SMS Intelidus 360 ID:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:287
+msgid "SMS Intelidus360"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:291
+msgid "SMS Notifications:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:310
+msgid "SMS Order Confirmation:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:306
+msgid "SMS Payment Confirmation:"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:302
+msgid "SMS Payment On Hold:"
+msgstr ""
+
+#: includes/class-wc-eupago-callback.php:38
+msgid "Success"
+msgstr ""
+
+#: templates/payment-instructions.php:48 templates/payment-instructions.php:70
+#: templates/payment-instructions.php:92
+#: templates/emails/plain-instructions.php:25
+#: templates/emails/plain-instructions.php:33
+#: templates/emails/plain-instructions.php:41
+#: templates/emails/html-instructions.php:44
+#: templates/emails/html-instructions.php:66
+#: templates/emails/html-instructions.php:87
+msgid "The receipt issued by the ATM machine is a proof of payment. Keep it."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin allows customers to pay their orders with Multibanco, MB WAY, "
+"Payshop and Credit Card with euPago’s gateway. Beta Version."
+msgstr ""
+
+#: includes/views/html-admin-page.php:18
+msgid ""
+"This request is subject to the approval of euPago's compliance department."
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:277
+msgid "User:"
+msgstr ""
+
+#: templates/payment-instructions.php:38 templates/payment-instructions.php:66
+#: templates/payment-instructions.php:88 templates/payment-instructions.php:109
+#: templates/emails/plain-instructions.php:23
+#: templates/emails/plain-instructions.php:31
+#: templates/emails/plain-instructions.php:39
+#: templates/emails/plain-instructions.php:49
+#: templates/emails/html-instructions.php:34
+#: templates/emails/html-instructions.php:62
+#: templates/emails/html-instructions.php:83
+#: templates/emails/html-instructions.php:108
+#: includes/views/order-meta-box.php:14 includes/views/order-meta-box.php:20
+#: includes/views/order-meta-box.php:26 includes/views/order-meta-box.php:32
+msgid "Value"
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:16 includes/hooks/hooks-sms.php:20
+msgid "Value:"
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:59
+msgid "We have received your payment regarding your order"
+msgstr ""
+
+#: includes/views/eupago-admin-page.php:206
+msgid "What is a channel?"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:128 includes/class-wc-eupago-cc.php:130
+#: includes/class-wc-eupago-payshop.php:128
+#: includes/class-wc-eupago-multibanco.php:146
+#: includes/class-wc-eupago-paysafecard.php:134
+#: includes/class-wc-eupago-paysafecash.php:134
+#: includes/class-wc-eupago-mbway.php:135
+msgid "when order is paid (requires active callback)"
+msgstr ""
+
+#: includes/class-wc-eupago-pagaqui.php:129 includes/class-wc-eupago-cc.php:131
+#: includes/class-wc-eupago-payshop.php:129
+#: includes/class-wc-eupago-multibanco.php:147
+#: includes/class-wc-eupago-paysafecard.php:135
+#: includes/class-wc-eupago-paysafecash.php:135
+#: includes/class-wc-eupago-mbway.php:136
+msgid "when order is placed (before payment)"
+msgstr ""
+
+#: eupago-gateway-for-woocommerce.php:177
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-wc-eupago-multibanco.php:113
+msgid "Yes"
+msgstr ""
+
+#: includes/views/html-admin-page.php:15
+msgid "You must first request its activation on your account by email:"
+msgstr ""
+
+#: includes/class-wc-eupago-mbway.php:104
+msgid ""
+"You will receive a notification in your MBWAY. When you open the "
+"notification you will be asked to confirm the purchase by simply entering "
+"your MB WAY PIN."
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:23
+msgid "Your order"
+msgstr ""
+
+#: includes/hooks/hooks-sms.php:93
+#, php-format
+msgid "Your order #%d on %s is now finished."
+msgstr ""

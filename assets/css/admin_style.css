@@ -1,0 +1,145 @@
+/* EuPago Style */
+
+/* Refund Request Block */
+.eupago-output-error {
+    background: #FE5D70;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.eupago-output-success {
+    background: #0AC282;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+/* Admin Page Header */
+.eupago_header {
+    background: #fff;
+    margin: 0 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.eupago_header h1 {
+    margin-bottom: 0;
+}
+
+.eupago_header img {
+    width: 100px;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+
+.eupago-notice {
+    margin: 10px 20px 0 0;
+}
+
+
+/* Admin Page Content */
+.eupago-settings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.eupago-settings h3 {
+    margin-top: 60px;
+}
+
+.eupago-settings form {
+    width: 68%;
+    background: #fff;
+    padding: 30px 40px;
+}
+
+.eupago-settings form code {
+    background: #00A09A;
+    color: #fff;
+}
+
+.eupago-settings td h3 {
+    margin-top: 20px;
+}
+
+.eupago-sms-notifications {
+    display: none;
+}
+
+.eupago-sms-notifications.active {
+    display: table-row;
+}
+
+.eupago-sidebar {
+    background: #00A09A; 
+    width: 20%;
+    margin: 0 20px 0 0;
+    padding: 2.50%;
+    height: 500px;
+}
+
+.eupago-sidebar p {
+    color: #fff;
+}
+
+.eupago-sidebar a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+.eupago-sidebar a:hover {
+    text-decoration: none;
+}
+
+
+/* Refund form */
+.eupago-field {
+    width: 100%;
+}
+
+.eupago-site-url {
+    display: none;
+}
+
+
+/* Alerts */
+.eupago-soap-error {
+    background: #FE5D70;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1625px) {
+    .eupago-settings form {
+        width: 60%;
+    }
+    .eupago-sidebar {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .eupago_header {
+        margin: 0 10px 20px 0;
+    }
+    .eupago-notice {
+        margin: 10px 10px 0 0;
+    }
+    .eupago-settings form {
+        width: 100%;
+        margin: 0 10px 0 0;
+    }
+    .eupago-sidebar {
+        width: 100%;
+        margin: 10px 10px 0 0;
+    }
+}
