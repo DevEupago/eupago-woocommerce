@@ -132,7 +132,7 @@ if ( !class_exists( 'WC_EuPago' ) ) :
 			include_once 'includes/class-wc-eupago-mbway.php';
 			include_once 'includes/class-wc-eupago-cc.php';
 			include_once 'includes/class-wc-eupago-paysafecard.php';
-			include_once 'includes/class-wc-eupago-paysafecash.php';
+			//include_once 'includes/class-wc-eupago-paysafecash.php';
 			include_once 'includes/class-wc-eupago-callback.php';
 			include_once 'includes/hooks/hooks-refund.php';
 			include_once 'includes/hooks/hooks-sms.php';
