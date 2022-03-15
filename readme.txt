@@ -4,22 +4,22 @@ Tags: woocommerce, payment, gateway, multibanco, atm, debit card, credit card, b
 Author URI: https://www.eupago.pt/
 Plugin URI: 
 Requires at least: 4.4
-Tested up to: 5.8.1
-Stable tag: 3.0
+Tested up to: 5.9.2
+Stable tag: 3.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin para recebimento de pagamentos via Multibanco, PayShop, MB WAY, Cartão de Crédito, Paysafecard e Paysafecash. O plugin permite ainda fazer reembolsos directamente pela plataforma do WooCommerce.
+Plugin para recebimento de pagamentos via Multibanco, PayShop, MB WAY, Cartão de Crédito e Paysafecard. O plugin permite ainda fazer reembolsos directamente pela plataforma do WooCommerce.
 
 == Description ==
 
-Plugin para recebimento de pagamentos via Multibanco, PayShop, MB WAY, Cartão de Crédito, Paysafecard e Paysafecash. O plugin permite ainda fazer reembolsos directamente pela plataforma do WooCommerce.
+Plugin para recebimento de pagamentos via Multibanco, PayShop, MB WAY, Cartão de Crédito e Paysafecard. O plugin permite ainda fazer reembolsos directamente pela plataforma do WooCommerce.
 
 = Features: =
 
 Versão Alpha
 
-Este plugin permite disponibilizar aos clientes finais novos meios de pagamento nacionais e internacionais. O plugin atualiza automaticamente o estado da encomenda quando o pagamento é feito, assim como o sotock do produto.
+Este plugin permite disponibilizar aos clientes finais novos meios de pagamento nacionais e internacionais. O plugin atualiza automaticamente o estado da encomenda quando o pagamento é feito, assim como o stock do produto.
 
 * geração de referências Multibanco Reference com ou sem data limite para pagamento. Os pagamentos são realizados via ATM ou Homebanking;
 * geração de referências PayShop Reference. O pagamento é realizado numa vasta rede nacional;
