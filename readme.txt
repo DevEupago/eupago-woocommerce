@@ -3,8 +3,8 @@ Contributors: eupagoip
 Tags: woocommerce, payment, gateway, multibanco, atm, debit card, credit card, bank, ecommerce, e-commerce, eupago, mb way, payshop, cofidispay, pagamento, refund, reembolso
 Author URI: https://www.eupago.pt/
 Plugin URI: 
-Requires at least: 5.9
-Tested up to: 6.3.1
+Requires at least: 4.4
+Tested up to: 5.9.2
 Stable tag: 3.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
