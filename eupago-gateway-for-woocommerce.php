@@ -2,12 +2,12 @@
 /**
 * Plugin Name: EuPago Gateway For Woocommerce
 * Plugin URI: 
-* Description: This plugin allows customers to pay their orders with Multibanco, MB WAY, Payshop and Credit Card with euPago’s gateway. Beta Version.
-* Version: 3.0
+* Description: This plugin allows customers to pay their orders with Multibanco, MB WAY, Payshop, Credit Card and CofidisPay with euPago’s gateway. Beta Version.
+* Version: 3.1
 * Author: euPago
 * Author URI: https://www.eupago.pt/
 * Text Domain: eupago-gateway-for-woocommerce
-* WC tested up to: 5.8.1
+* WC tested up to: 6.3.1
 **/
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -19,7 +19,7 @@ if ( !class_exists( 'WC_EuPago' ) ) :
 		*
 		* @var string
 		*/
-		const VERSION = '3.0';
+		const VERSION = '3.1';
 
 		/**
 		* Instance of this class.
@@ -114,7 +114,8 @@ if ( !class_exists( 'WC_EuPago' ) ) :
 				'<a href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=checkout&section=eupago_multibanco' ) ) . '">' . __( 'Multibanco', 'eupago-gateway-for-woocommerce' ) . '</a>',
 				'<a href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=checkout&section=eupago_mbway' ) ) . '">' . __( 'MB WAY', 'eupago-gateway-for-woocommerce' ) . '</a>',
 				'<a href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=checkout&section=eupago_cc' ) ) . '">' . __( 'Credit Card', 'eupago-gateway-for-woocommerce' ) . '</a>',
-				'<a href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=checkout&section=eupago_payshop' ) ) . '">' . __( 'Payshop', 'eupago-gateway-for-woocommerce' ) . '</a>'
+				'<a href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=checkout&section=eupago_payshop' ) ) . '">' . __( 'Payshop', 'eupago-gateway-for-woocommerce' ) . '</a>',
+				'<a href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=checkout&section=eupago_cofidispay' ) ) . '">' . __( 'CofidisPay', 'eupago-gateway-for-woocommerce' ) . '</a>'
 			];
 
 			return array_merge( $plugin_links, $links );
@@ -130,6 +131,7 @@ if ( !class_exists( 'WC_EuPago' ) ) :
 			include_once 'includes/class-wc-eupago-payshop.php';
 			//include_once 'includes/class-wc-eupago-pagaqui.php';
 			include_once 'includes/class-wc-eupago-mbway.php';
+			include_once 'includes/class-wc-eupago-cofidispay.php';
 			include_once 'includes/class-wc-eupago-cc.php';
 			include_once 'includes/class-wc-eupago-paysafecard.php';
 			//include_once 'includes/class-wc-eupago-paysafecash.php';
@@ -150,6 +152,7 @@ if ( !class_exists( 'WC_EuPago' ) ) :
 			$methods[] = 'WC_EuPago_Multibanco_WebAtual';
 			$methods[] = 'WC_EuPago_PayShop_WebAtual';
 			$methods[] = 'WC_EuPago_MBWAY_WebAtual';
+			$methods[] = 'WC_EuPago_CofidisPay_WebAtual';
 			$methods[] = 'WC_EuPago_Pagaqui_WebAtual';
 			$methods[] = 'WC_EuPago_CC_WebAtual';
 			$methods[] = 'WC_EuPago_PF_WebAtual';

@@ -20,6 +20,15 @@ class WC_EuPago_API {
     }
   }
 
+  public function get_cofidis_url()
+  {
+    if (get_option('eupago_endpoint') == 'sandbox') {
+      return 'https://sandbox.eupago.pt/api/v1.02/cofidis/create';
+    } else {
+      return 'https://clientes.eupago.pt/api/v1.02/cofidis/create';
+    }
+  }
+
   public function get_api_key() {
     return get_option('eupago_api_key');
   }
@@ -231,4 +240,94 @@ class WC_EuPago_API {
         'lang' => $lang,
       ));
   }
+
+  public function cofidispay_create($order_id)
+  {
+    $order = wc_get_order( $order_id );
+
+    $data = [
+      'payment' => [
+        'identifier' => $order->get_order_number(),
+        'amount' => [
+          'value' => $order->get_total(),
+          'currency' => 'EUR'
+        ],
+        'successUrl' => $order->get_checkout_order_received_url(),
+        'failUrl' => $order->get_checkout_payment_url(),
+      ],
+      'customer' => [
+        'notify' => false,
+        'email' => $order->get_billing_email(),
+        'name' => $order->get_formatted_billing_full_name(),
+        'vatNumber' => get_post_meta($order_id, '_eupago_cofidis_vat_number', true),
+        'phoneNumber' => $order->get_billing_phone(),
+        'billingAddress' => [
+          'address' => $order->get_billing_address_1() . ' ' . $order->get_billing_address_2(),
+          'zipCode' => $order->get_billing_postcode(),
+          'city' => $order->get_billing_city(),
+        ],
+      ],
+      'items' => [],
+    ];
+
+    foreach ($order->get_items() as $item) {
+      $product_variation_id = $item['variation_id'];
+
+      // Check if product has variation.
+      if ($product_variation_id) {
+        $_product = wc_get_product($item['variation_id']);
+      } else {
+        $_product = wc_get_product($item['product_id']);
+      }
+
+      // Get SKU
+      $item_sku = $_product->get_sku();
+
+      $data['items'][] = [
+        'reference' => $item_sku,
+        'price' => $item->get_total() + $item->get_total_tax(),
+        'quantity' => $item->get_quantity(),
+        'tax' => $item->get_tax_class() == 'taxa-reduzida' ? 06 : 23, // TODO: Ver taxas iva
+        'discount' => 0,
+        'description' => $item->get_name(), // TODO: Ver o que é esta description
+      ];
+    }
+
+    $portes = 0;
+
+    $portes = $order->get_shipping_total() + $order->get_shipping_tax();
+
+    foreach ($order->fee_lines as $fee_item) {
+      $portes += $fee_item->total;
+    }
+
+    if ($portes > 0) {
+       $data['items'][] = [
+        'reference' => 'PORTES',
+        'price' => $portes,
+        'quantity' => 1,
+        'tax' => 23,
+        'discount' => 0,
+        'description' => 'Custos de expedição', // TODO: Ver o que é esta description
+      ];
+    }
+
+    $response = wp_remote_request(
+      $this->get_cofidis_url(),
+      [
+        'method' => 'POST',
+        'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0',
+        'headers'     => array(
+          'Content-Type' => 'application/json',
+          'Cache-Control' => 'no-cache',
+          'Authorization' => 'ApiKey ' . $this->get_api_key(),
+        ),
+        'body' => json_encode($data)
+      ]
+    );
+    $response_body = wp_remote_retrieve_body($response);
+
+    return json_decode($response_body);
+  }
+
 }

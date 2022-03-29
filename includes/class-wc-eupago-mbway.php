@@ -242,7 +242,7 @@ if (!class_exists('WC_EuPago_MBWAY_WebAtual')) {
     function payment_fields()
     {
       if ($description = $this->get_description()) {
-        echo esc_html(wpautop(wptexturize($description)));
+        echo wpautop(wptexturize($description));
       }
 
       $this->mbway_form();
