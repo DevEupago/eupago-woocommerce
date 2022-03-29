@@ -113,7 +113,8 @@ class WC_EuPago_Callback {
         'PQ:PT' => ['eupago_pagaqui'],
         'CC:PT' => ['eupago_cc'],
         'PSC:PT' => ['eupago_psc'],
-        'PF:PT' => ['eupago_pf']
+        'PF:PT' => ['eupago_pf'],
+        'CP:PT' => ['eupago_cofidispay'],
       );
       $eupago_gateways = apply_filters( 'eupago_for_woocommerce_callback_gateways', $eupago_gateways );
 
@@ -132,7 +133,8 @@ class WC_EuPago_Callback {
         'eupago_pagaqui' => 'WC_EuPago_Pagaqui_WebAtual',
         'eupago_cc' => 'WC_EuPago_CC_WebAtual',
         'eupago_psc' => 'WC_EuPago_PSC_WebAtual',
-        'eupago_pf' => 'WC_EuPago_PF_WebAtual'
+        'eupago_pf' => 'WC_EuPago_PF_WebAtual',
+        'eupago_codifispay' => 'WC_EuPago_CofidisPay_WebAtual'
       );
       return $eupago_gateways[$gateway];
     } else {
