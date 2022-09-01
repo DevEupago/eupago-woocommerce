@@ -287,7 +287,7 @@ class WC_EuPago_API {
         'reference' => $item_sku,
         'price' => $item->get_total() + $item->get_total_tax(),
         'quantity' => $item->get_quantity(),
-        'tax' => $item->get_tax_class() == 'taxa-reduzida' ? 06 : 23, // TODO: Ver taxas iva
+        'tax' => $item->get_tax_class() == 'taxa-reduzida' ? 0 : 23, // TODO: Ver taxas iva
         'discount' => 0,
         'description' => $item->get_name(), // TODO: Ver o que é esta description
       ];
